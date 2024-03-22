@@ -3,22 +3,16 @@ import EarBuds from "./component/earBuds/EarBuds";
 import Navbar from "./component/navbar/Navbar";
 import SearchBar from "./component/searchBar/SearchBar";
 import SmartWatch from "./component/smartwatch/SmartWatch";
-
+import Homepage from "./pages/homepage/homepage";
 
 export default function Home() {
   return (
     <>
-      <header>
-        <Navbar></Navbar>
-      </header>
-      <main>
-        <Banner></Banner>
-        <SearchBar></SearchBar>
-        <section>
-          <SmartWatch></SmartWatch>
-          <EarBuds></EarBuds>
-        </section>
-      </main>
+
+    <Navbar></Navbar>
+    <main>
+      <Homepage></Homepage>
+    </main>
     </>
   );
 }

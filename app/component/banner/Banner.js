@@ -1,8 +1,8 @@
 const Banner = () => {
     return (
-      <div className="banner">
+      <section className="banner">
         <img src="/banner.jpeg" alt="" />
-      </div>
+      </section>
     );
   };
   export default Banner
