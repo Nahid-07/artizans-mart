@@ -1,7 +1,9 @@
-import Banner from "@/app/component/banner/Banner";
+import Banner from "@/app/component/banner/Banner"
 import EarBuds from "@/app/component/earBuds/EarBuds";
 import SearchBar from "@/app/component/searchBar/SearchBar";
 import SmartWatch from "@/app/component/smartwatch/SmartWatch";
+
+
 
 
 const Homepage = () => {
